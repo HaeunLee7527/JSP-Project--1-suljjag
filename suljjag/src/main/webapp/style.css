@@ -1,20 +1,16 @@
 @charset "UTF-8";
 
 <!--전체 스타일 설정-->
-* {
-	margin: 0;
-	padding: 0;
-	background-color: pink;
-}
+*{margin:0;padding:0;}
 
 <!--메인 화면 스타일설정-->
-#main-navigation ul li {
+.top-logo ul li {
 	list-style-type: none;
 	display: inline;
 	background-color: purple;
 }
 
-#personal-navigation {
+.personal-navigation {
 	display: right;
 }
 
