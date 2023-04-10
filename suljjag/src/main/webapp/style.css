@@ -2,22 +2,25 @@
 
 <!--전체 스타일 설정-->
 *{margin:0;padding:0;background-color:purple;}
-
-<!--메인 화면 스타일설정-->
-.main-navigation ul li {
+header ul li{
 	list-style-type: none;
 	display: inline;
-	background-color: purple;
 }
-
-.main-navigation-right ul li {
-	float: right;
+header ul li a{
+	text-decoration:none;
+}
+.main-navigation-left{
+	float:left;
+}
+.main-navigation-right{
+float:right;
 }
 .main-image{
-	width:100%;
+	clear:both;
 }
-
-
+.main-content{
+	
+}
 .main-story img {
 	margin: auto;
 	display: block;
