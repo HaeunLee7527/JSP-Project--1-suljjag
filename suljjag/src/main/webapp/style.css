@@ -4,15 +4,19 @@
 *{margin:0;padding:0;background-color:purple;}
 
 <!--메인 화면 스타일설정-->
-.top-logo ul li {
+.main-navigation ul li {
 	list-style-type: none;
 	display: inline;
 	background-color: purple;
 }
 
-.personal-navigation {
-	display: right;
+.main-navigation-right ul li {
+	float: right;
 }
+.main-image{
+	width:100%;
+}
+
 
 .main-story img {
 	margin: auto;
@@ -22,7 +26,7 @@
 
 .main-image-text {
 	position: absolute;
-	top: 300%;
+	top: 124%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
