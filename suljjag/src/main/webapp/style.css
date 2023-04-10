@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 <!--전체 스타일 설정-->
-*{margin:0;padding:0;}
+*{margin:0;padding:0;background-color:purple;}
 
 <!--메인 화면 스타일설정-->
 .top-logo ul li {
