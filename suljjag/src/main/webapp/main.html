@@ -4,29 +4,40 @@
 <meta charset="UTF-8">
 <title>술짝</title>
 <link rel="stylesheet" href="style.css?after">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap" rel="stylesheet">
 </head>
 <body>
-	<!-- 헤더 -->
+
 	<header>
 		<div>
-			<img src="images/logo.png">
+			<a href="main.html">
+			<h1 class="logo">술짝<h1>
+			</a>
+			<br>
 		</div>
-		<div class="main-navigation">
-			<ul>
-				<li><a href="http://localhost:8097/suljjag_project/subscribe.html">정기구독</a></li>
-				<li><a href="http://localhost:8097/suljjag_project/store.html">스토어</a></li>
-			</ul>
-		</div>
-
-		<div class="main-navigation-right">
+		<div>
+			<nav class="navigationbar-left">
 				<ul>
-					<li><a href="#">회원가입</a></li>
-					<li><a href="#">로그인</a></li>
-					<li><a href="#">장바구니</a></li>
+					<li><a href="subscribe.html">정기구독</a></li>
+					<li><a href="store.html">스토어</a></li>
 				</ul>
+			</nav>
+			<nav class="navigationbar-right">
+				<ul>
+					<li><a href="store.html">회원가입</a></li>
+					<li><a href="store.html">로그인</a></li>
+					<span class="material-symbols-outlined">shopping_cart_checkout</span>
+				</ul>
+			</nav>
+			
 		</div>
+		<br>
+		
 	</header>
-	<!-- 술짝 메인사진 -->
+
 	<section class="main-image">
 		<img src="images/main_image.PNG" />
 	</section>
@@ -35,24 +46,28 @@
 		<article class="main-story">
 			<img src="images/main story.PNG"> 
 			<img src="images/main story2.png">
-			<h2 class="main-image-text">
+			<p class="main-image-text">
 				4도부터 53도까지<br> 다양하게 갖춰진 전통주 쇼핑몰
-			</h2>
+			</p>
 		</article>
-		<article class="main-subscribe">
-			<h1>매달 찾아오는 술짝</h1>
-			<h2>매월 전통주 구독으로 나를 위한 특별한 시간</h2>
-			<h4>취향을 찾아가고 전통주를 알아가요</h4>
+		< class="main-subscribe">
+			<p class="sub-info">매달 찾아오는 술짝</p>
+			<p class="sub-text">매월 전통주 구독으로 나를 위한 특별한 시간</p>
+			<p class="sub-info">&nbsp;&nbsp;취향을 찾아가고 전통주를 알아가요</p>
+		</div>	
+		<div class="main-content2">
 			<img src="images/subscribe/subscribe.jpg"> 
 			<img src="images/subscribe/subscribe1.png">
-		</article>
-		<article class="main-store">
-			<h1>다양한 술짝의 전통주!</h1>
-			<h2>매월 전통주 구독으로 나를 위한 특별한 시간</h2>
-			<h4>취향을 찾아가고 전통주를 알아가요</h4>
+		</div>
+		<div class="main-store">
+			<p class="sub-info">다양한 술짝의 전통주!</p>
+			<p class="sub-text">매월 전통주 구독으로 나를 위한 특별한 시간</p>
+			<p class="sub-info">&nbsp;&nbsp; 취향을 찾아가고 전통주를 알아가요</p>
+		</div>
+		<div class="main-store2">
 			<img src="images/store.jpg">
-		</article>
-		<article class="main-event"></article>
+		</div>
+		<div class="main-event"></div>
 	</section>
 	<footer>
 		<hr>
@@ -63,6 +78,7 @@
 		<p>주소: 서울특별시 서초구 강남대로 527, 10층(브랜드타워, 술짝) 정보보호 책임자: 이하은
 			대표번화:070-5014-2343 이메일:info@suljjag.com</p>
 	</footer>
+
 </body>
 </html>
 
