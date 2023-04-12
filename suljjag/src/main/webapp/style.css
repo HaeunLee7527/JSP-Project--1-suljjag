@@ -42,6 +42,9 @@ header ul li{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.subscribe-box{
+	background-image: url("iamges/subscribe/subscribe1.png");
+}
 <!--스토어 화면 스타일설정-->
     .store-information {
 	background-image: url('images/store.jpg');

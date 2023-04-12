@@ -6,48 +6,49 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- 헤더 -->
-	<header id="header">
-		<div id="logo">
-			<img src="logo.png"/>
+	<!-- 헤더 -->
+	<header>
+		<div>
+			<img src="images/logo.png">
 		</div>
-		<nav class="navigation">
+		<div class="main-navigation">
 			<ul>
-				<li>정기구독</li>
-				<li>스토어</li>
+				<li><a
+					href="http://localhost:8097/suljjag_project/subscribe.html">정기구독</a></li>
+				<li><a href="http://localhost:8097/suljjag_project/store.html">스토어</a></li>
 			</ul>
-			<ul id="right">
-				<li>회원가입</li>
-				<li>로그인</li>
-				<li>장바구니</li>
+		</div>
+
+		<div class="main-navigation-right">
+			<ul>
+				<li><a href="#">회원가입</a></li>
+				<li><a href="#">로그인</a></li>
+				<li><a href="#">장바구니</a></li>
 			</ul>
-		</nav>
+		</div>
 	</header>
-<section class="store-image">
+	<section class="store-image">
+		<img src="images/store2.png">
+	</section>
+	<section id="store-content">
+		<ul>
+			<li><img src="images/icon-takju.png"><a href="takju.html"><span>탁주</span></a></li>
+			<li><img src="images/icon-yakchungju.png"><a href="chengju.html"><span>청주</span></a></li>
+			<li><img src="images/icon-soju.png"><a href="soju.html"><span>증류주</span></a></li>
+			<li><img src="images/icon-wine.png"><a href="fruits-wine.html"><span>과실주</span></a></li>
+			<li><img src="images/icon-event.png"><a href="event.html"><span>이벤트</span></a></li>
+		</ul>
+		<nav id="store-information">
+			<h1>다양한 술짝의 전통주</h1>
+			<h3>어떤 술을 좋아하시나요?</h3>
+			<h5>술짝과 함꼐 전국 각지의 전통주를 즐겨보세요</h5>
+			<img src="images/store.jpg" /> <img src="images/main_image.png" />
+		</nav>
+		<article class="store-week-pick">
+			<h1>이번주 술짝의 PICK</h1>
 
-</section>
-<section id="store-content">
-<ul>
-<li><a href="takju.html">탁주</a></li>
-<li><a href="chengju.html">청주</a></li>
-<li><a href="soju.html">증류주</a></li>
-<li><a href="fruits-wine.html">과실주</a></li>
-<li><a href="event.html">이벤트</a></li>
-</ul>
-<nav id="store-information">
-<h1>다양한 술짝의 전통주</h1>
-<h3>어떤 술을 좋아하시나요?</h3>
-<h5>술짝과 함꼐 전국 각지의 전통주를 즐겨보세요</h5>
-<img src="images/store.jpg"/>
-<img src="images/main_image.png"/>
-</nav>
-<article class="store-week-pick">
-<h1>이번주 술짝의 PICK</h1>
-
-</article>
-</section>
-<footer>
-
-</footer>
+		</article>
+	</section>
+	<footer> </footer>
 </body>
 </html>
